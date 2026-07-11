@@ -1,0 +1,77 @@
+<svg viewBox="0 0 900 1100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HOODRICH logo — new money, same hood">
+  <defs>
+    <linearGradient id="goldG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9a8"/><stop offset="1" stop-color="#c99b2e"/>
+    </linearGradient>
+    <linearGradient id="goldTxt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".08" stop-color="#ffe9a8"/><stop offset=".46" stop-color="#d4af37"/><stop offset=".82" stop-color="#8a6a1c"/><stop offset="1" stop-color="#ffe9a8"/>
+    </linearGradient>
+    <linearGradient id="hoodG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17b06a"/><stop offset="1" stop-color="#076034"/>
+    </linearGradient>
+    <radialGradient id="skinG" cx=".5" cy=".4" r=".8">
+      <stop offset="0" stop-color="#ffe3b3"/><stop offset="1" stop-color="#f2c17e"/>
+    </radialGradient>
+    <radialGradient id="glowG" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#d4af37" stop-opacity=".25"/><stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="450" cy="430" r="390" fill="url(#glowG)"/>
+
+  <!-- full-drip richie -->
+  <g transform="translate(450 440) scale(1.42) translate(-256 -266)">
+    <!-- body -->
+    <path d="M256 252 C 158 252 128 336 122 452 C 122 452 186 478 256 478 C 326 478 390 452 390 452 C 384 336 354 252 256 252 Z" fill="url(#hoodG)" stroke="#053622" stroke-width="10"/>
+    <path d="M196 388 q 60 26 120 0 l -10 44 q -50 18 -100 0 Z" fill="#0a7a44" stroke="#053622" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M236 268 q -4 40 4 62 M276 268 q 4 40 -4 62" stroke="#f6efe0" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="240" cy="334" r="6" fill="#f6efe0"/><circle cx="272" cy="334" r="6" fill="#f6efe0"/>
+    <!-- left arm + watch -->
+    <path d="M150 300 C 116 322 108 366 130 396 q 26 16 56 8" fill="none" stroke="#053622" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="192" cy="402" r="17" fill="url(#skinG)" stroke="#b8834a" stroke-width="6"/>
+    <rect x="146" y="380" width="34" height="26" rx="7" fill="url(#goldG)" stroke="#8a6a1c" stroke-width="5" transform="rotate(24 163 393)"/>
+    <circle cx="163" cy="393" r="10" fill="#0a1c11" stroke="#8a6a1c" stroke-width="3"/>
+    <!-- right arm + champagne -->
+    <path d="M362 300 C 396 292 416 264 420 232" fill="none" stroke="#053622" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="420" cy="228" r="17" fill="url(#skinG)" stroke="#b8834a" stroke-width="6"/>
+    <path d="M394 168 q 32 -10 60 0 q -4 28 -30 32 q -26 -4 -30 -32 Z" fill="rgba(246,239,224,.28)" stroke="#f6efe0" stroke-width="5"/>
+    <path d="M424 200 v 22 M408 226 h 32" stroke="#f6efe0" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="412" cy="176" r="3.4" fill="#ffe9a8"/><circle cx="428" cy="170" r="2.6" fill="#ffe9a8"/><circle cx="438" cy="178" r="3" fill="#ffe9a8"/>
+    <!-- head -->
+    <circle cx="256" cy="172" r="88" fill="url(#skinG)" stroke="#b8834a" stroke-width="8"/>
+    <path d="M256 58 C 164 58 132 128 140 196 C 144 228 158 250 180 262 L 200 218 C 194 160 216 122 256 122 C 296 122 318 160 312 218 L 332 262 C 354 250 368 228 372 196 C 380 128 348 58 256 58 Z" fill="url(#hoodG)" stroke="#053622" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M203 212 C 199 162 220 128 256 128 C 292 128 313 162 309 212" fill="none" stroke="#d4af37" stroke-width="4" stroke-dasharray="7 7" opacity=".85"/>
+    <!-- crown -->
+    <g transform="rotate(-10 330 74)">
+      <path d="M282 92 l 10 -40 l 24 24 l 20 -34 l 20 34 l 24 -24 l 10 40 Z" fill="url(#goldG)" stroke="#8a6a1c" stroke-width="6" stroke-linejoin="round"/>
+      <rect x="280" y="88" width="112" height="16" rx="7" fill="url(#goldG)" stroke="#8a6a1c" stroke-width="5"/>
+      <circle cx="316" cy="60" r="5" fill="#0fae62"/><circle cx="356" cy="60" r="5" fill="#ff5a6e"/>
+    </g>
+    <!-- shades -->
+    <path d="M188 158 h 136" stroke="#d4af37" stroke-width="6"/>
+    <rect x="192" y="152" width="52" height="34" rx="14" fill="#1a1206" stroke="#d4af37" stroke-width="5"/>
+    <rect x="268" y="152" width="52" height="34" rx="14" fill="#1a1206" stroke="#d4af37" stroke-width="5"/>
+    <path d="M202 162 q 10 -6 18 0" stroke="rgba(255,233,168,.7)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M278 162 q 10 -6 18 0" stroke="rgba(255,233,168,.7)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- face -->
+    <ellipse cx="192" cy="200" rx="15" ry="9" fill="#ff9d7a" opacity=".55"/>
+    <ellipse cx="320" cy="200" rx="15" ry="9" fill="#ff9d7a" opacity=".55"/>
+    <ellipse cx="256" cy="194" rx="13" ry="10" fill="#f2b06e" stroke="#b8834a" stroke-width="5"/>
+    <path d="M216 220 q 36 26 82 4" fill="none" stroke="#4a2c12" stroke-width="9" stroke-linecap="round"/>
+    <path d="M284 226 l 7 13 l 11 -9 Z" fill="url(#goldG)" stroke="#8a6a1c" stroke-width="3" stroke-linejoin="round"/>
+    <!-- chain -->
+    <path d="M194 280 C 220 322 292 322 318 280" fill="none" stroke="#d4af37" stroke-width="13" stroke-linecap="round" stroke-dasharray="3 12"/>
+    <circle cx="256" cy="336" r="27" fill="url(#goldG)" stroke="#8a6a1c" stroke-width="6"/>
+    <text x="256" y="349" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-weight="700" font-size="34" fill="#8a6a1c">R</text>
+    <!-- sparkles -->
+    <g fill="#ffe9a8">
+      <path d="M116 130 l 6 15 l 15 6 l -15 6 l -6 15 l -6 -15 l -15 -6 l 15 -6 Z"/>
+      <path d="M420 300 l 5 12 l 12 5 l -12 5 l -5 12 l -5 -12 l -12 -5 l 12 -5 Z"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="450" y="905" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="118" letter-spacing="2" fill="url(#goldTxt)">HOODRICH</text>
+  <text x="450" y="972" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-weight="700" font-size="42" fill="#0fae62">$RICH</text>
+  <text x="450" y="1032" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="32" fill="#f6efe0">"New money. Same hood."</text>
+</svg>
